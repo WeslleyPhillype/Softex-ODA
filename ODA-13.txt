@@ -1,0 +1,15 @@
+nome= weslley
+nota1= 8
+nota2= 7
+faltas= 2
+media(nota1 + nota2 / 2)
+
+nota1= input("qual é a sua nota 1?")
+nota2= input("qual é sua nota 2?")
+faltas= input("quantas faltas você teve?")
+
+print("sua media foi {media}.")
+if media < 7 or faltas >= 3
+print((nome), você foi reprovado!")
+else
+print({nome}, você foi aprovado.")
