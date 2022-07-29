@@ -1,0 +1,16 @@
+quantidade_roda = 5
+peso = 6050
+quantidade_pessoas  = 2
+
+if(quantidade_roda == 2 or quantidade_roda == 3):
+   pint("Escolha a categoria A")
+elif(quantidade_roda == 4 and quantidade_pessoas <= 8 peso <= 3500):
+     print("Escolha a categoria B")
+elif(quantidade_roda >= 4 and peso > 3500 and peso <= 6000):
+     print("Escolha a categora C")
+elif(quantidade_roda >= 4 and quantidade_pessoas > 8):
+     print("Escolha a categoria D")
+elif(quantidade_roda >= 4 and peso > 6000):
+    print("Escolha a categoria E")
+else:
+    print("Os valores são invalidos")
