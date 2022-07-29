@@ -1,0 +1,18 @@
+def idadef()
+
+    Try:
+        nome = input("digite seu nome: ")
+        ano_atual = int(input("Digite o ano atual: "))
+        ano_nascimento = int(input("digite o ano de nascimento: "))
+
+        iade =  ano_atual - ano_nascimento
+
+        if(ano_atual < 2022 and ano_nascimento > 1922):
+            print("olá", nome, "você tem (ou vai fazer)", idade)
+        else;
+            print(!erro!")
+            idadef()
+    except:
+        print("VocÊ não digitou Números")
+        idadef()
+idadef()
