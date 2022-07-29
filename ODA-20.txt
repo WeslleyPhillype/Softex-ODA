@@ -1,0 +1,27 @@
+class Aluno():
+
+     #constructor
+     def __init__(self, name, age):
+         self.name = name
+         self.age = age
+
+     #Methods getters and setters
+     def set_name(self, name):
+         self.name = name
+
+     def get_name(self):
+         return self.name
+
+     def set_agr(self, age):
+         self,age = age
+  
+     def get_age(self):
+         return self.age
+
+aluno1 - aluno(None, None)
+
+aluno1.set_age(20)
+aluno1.set_name("lelo")
+
+print(alino1.get_age())
+print(aluno1.get_name())      
