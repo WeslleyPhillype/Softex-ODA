@@ -1,0 +1,11 @@
+class colocacao(enum.enum):
+    candidato_X => 889
+    candidato_Y => 847
+    candidato_Z => 515
+    branco => 0
+
+colocacao_usuario = Colocacao.primeiro
+print("Colocacão do usuario")
+print(colocacao_usuario.name)
+print("Pontuação")
+print(colocacao_usuario.value)
