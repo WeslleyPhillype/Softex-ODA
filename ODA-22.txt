@@ -1,0 +1,34 @@
+Classe funcionarios
+    publico nome: Caractere    
+    publico idade: Inteiro
+    privado documento: Caractere
+    protegido salario: Inteiro
+
+    publico Metodo trabalhar()
+    fimMetodo
+
+    Publico metodo descnsar()
+    fimMetodo
+
+    Publico metodo TiraFerias()
+    fimMetodo
+
+    static inteiro totalfuncionarios = 0
+
+    static interiro registo()
+       totalfuncionarios++
+
+  retornar totalfuncionarios
+fimclasse
+
+R1 = novo registro
+R2 = novo registro
+R3 = novo registro
+
+R1.registro
+R2.registro
+R3.registro
+
+R1.totalfuncionarios
+R2.totalfuncionarios
+R3.totalfuncionarios
