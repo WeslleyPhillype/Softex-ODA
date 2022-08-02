@@ -1,0 +1,60 @@
+Classe carro
+       publico modelo: BMW
+       protegido ano: 2020
+       protegido km: 250
+       privado cor: Branco
+
+       publico Metodo acelerar()
+       FimMetodo
+
+       privado Metodo freiar()
+       FimMetodo
+
+       protegido Metodo estacionar()
+
+Classe moto
+       publico modelo: CG
+       protegido ano: 2019
+       protegido km: 150
+       privado cor: Preta
+
+       publico Metodo acelerar()
+       FimMetodo
+
+       privado Metodo freiar()
+       FimMetodo
+
+       protegido Metodo estacionar()
+
+
+Classe dinheiro
+       privado modelo: Real
+       privado ano: caracter
+       publico valor: Inteiro
+       privado cor: caracter
+
+       publico Metodo comprar()
+       FimMetodo
+
+       publico Metodo pagar()
+       FimMetodo
+
+       publico Metodo ganhar()
+
+
+classe funcionario
+
+       publico nome: Caractere    
+       publico idade: Inteiro
+       privado documento: Caractere
+       protegido salario: Inteiro
+
+       publico Metodo trabalhar()
+       fimMetodo
+
+       Publico metodo descnsar()
+       fimMetodo
+
+       Publico metodo TiraFerias()
+       fimMetodo
+
