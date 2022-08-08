@@ -1,0 +1,39 @@
+nome = "Maria Silva"
+nacionalidade = "Brasileira"
+nome_mae = "Ana Santos Silva"
+nome_pai = "Jonas Nunes Silva"
+
+nome = "Maria Silva"
+print(nome)
+
+nacionalidade = "Brasileira"
+print(nacionalidade)
+
+nome_mae = "Ana santos Silva"
+print(nome_mae)
+
+nome_pai = "Jonas Nunes Silva"
+print(nome_pai)
+
+nome = “Maria Silva”
+print(nome[0])
+
+==
+
+nome = "Maria"
+sobrenome = "Silva"
+
+nome_completo = nome + sobrenome
+print(nome_completo)
+
+==
+
+nome = "Maria Silva"
+print(nome[0])
+
+print(nome[6])
+
+
+
+
+
