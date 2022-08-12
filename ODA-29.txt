@@ -1,0 +1,13 @@
+um site de wiki de um game
+
+//nesta linha temos a barra superior com algumas informações
+body > div.fandom-sticky-header.is-visible
+//nesta lina é onde mostra a logomarca do site
+body > div.fandom-sticky-header.is-visible > a.fandom-sticky-header__logo
+//nesta linha mostra o nome do site
+body > div.fandom-sticky-header.is-visible > a.fandom-sticky-header__sitename
+
+outro site de wiki de veiculos de um jogo
+
+//nessa linha vemos que é onde indica que o cabeçalho com o nome "vehicles"
+<h1 id="firstHeading" class="firstHeading" lang="en">Vehicles</h1>
