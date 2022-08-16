@@ -1,0 +1,25 @@
+const readline = require('readline-sync');
+
+function calculaNota(){
+
+    var cont = 0
+    var media = 0
+    var nome = ''
+    while(cont < 2){
+
+        var nota1 = readline.questionInt('Nota 1:');
+        var nota2 = readline.questionInt('Nota 2:');
+        var mediaaluno = (nota1 + nota2)/2;
+        var nome = readline.question('nome: ');
+
+        if (mediaaluno > media)
+            media = mediaaluno;
+            nomemaiormedia = nome
+        //(media < 7) ? console.log('Reprovado') : console.log('Aprovado');
+        cont = cont + 1;
+    }
+    console.log(media)
+    console.log(nomemaiormedia)
+}
+
+console.log(calculaNota());
