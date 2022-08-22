@@ -1,0 +1,23 @@
+//codigo baseado em 3 notas
+const readline = require('readline-sync');
+
+function calcularNota(){
+
+    var media = 0
+    while(media<7){
+
+        var nota1 = readline.questionInt('nota 1: ')
+        var nota2 = readline.questionInt('nota 2: ')
+        var nota3 = readline.questionInt('nota 3: ')
+
+        media = (nota1 + nota2 + nota3)/3;
+        (media<7) ? console.log('Reprovado') : console.log('Aprovado');
+    }
+}
+
+
+calcularNota();
+
+//codigo de quanto ele deve tirar na proxima prova
+
+
