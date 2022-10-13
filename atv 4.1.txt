@@ -1,0 +1,9 @@
+Dado - pode ser definido  como o registro do atributo de um objeto ou fenômeno.
+
+Banco de dados - é uma coleção organizada de informações/dados estruturadas ou não.
+
+Modelos de dados - mostra a estrutura lógica de um banco de dados, incluindo as relações e restrições que determinam como os dados podem ser armazenados e acessados.
+
+Metadados -  Catálogo de dados que tem uma descrição completa de como os dados estão armazenados, dados sobre dados.
+
+Catálogo de dados - é uma coleção de metadados, que usa metadados para ajudar as organizações a gerenciarem seus dados. 
