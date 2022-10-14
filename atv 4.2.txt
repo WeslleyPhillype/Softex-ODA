@@ -1,0 +1,21 @@
+PRIMEIRA ETAPA: ANÁLISE DE REQUISITOS
+
+Identificar quais são os dados que devem ser armazenados no banco de dados e os que não devem ser armazenados (minimundo).
+
+SEGUNDA ETAPA: PROJETO CONCEITUAL
+
+Baseado na especificação de requisitos criada na etapa anterior,cria-se um gráfico para representar o banco com entidades, 
+atributos e relacionamentos(cardinalidade).
+
+TERCEIRA ETAPA: PROJETO LÓGICO
+
+É a etapa onde definiremos qual SGBD irá ser utilizado que representa um mapeamento do projeto conceitual enteidade-relacionamento, 
+nesta fase criamos os modelos internos de bancos de dados, com detalhes sobre tabelas, relacionamentos, 
+regras, etc.
+
+QUARTA ETAPA: PROJETO FÍSICO
+
+É a parte final do projeto de banco de dado, nesta etapa define-se detalhes técnicos da implementação do banco de dados, 
+por exemplo a forma como os dados serão armazenados, os scripts para a criação dos objetos no banco de dados, 
+permissão de acesso de usuário, etc.
+
