@@ -1,0 +1,22 @@
+Normalização é o processo de organização de dados em um banco de dados. 
+Isso inclui a criação de tabelas e o estabelecimento de relações entre essas tabelas de acordo 
+com as regras projetadas para proteger os dados e tornar o banco de dados mais flexível, eliminando 
+a redundância e a dependência inconsistente.
+
+Há algumas regras para normalização do banco de dados. Cada regra é chamada de "forma normal". 
+Se a primeira regra for observada, o banco de dados será considerado como "primeira forma normal". 
+Se as três primeiras regras forem observadas, o banco de dados será considerado como "terceira forma normal". 
+Embora outros níveis de normalização sejam possíveis, a terceira forma normal é considerada o nível mais alto 
+necessário para a maioria dos aplicativos.
+
+Primeira forma normal
+Eliminar grupos repetidos em tabelas individuais.
+Crie uma tabela separada para cada conjunto de dados relacionados.
+Identifique cada conjunto de dados relacionados com uma chave primária.
+
+Segunda forma normal
+Crie tabelas separadas para conjuntos de valores que se aplicam a vários registros.
+Relacione essas tabelas com uma chave estrangeira.
+
+Terceira forma normal
+Elimine campos que não dependem da chave.
