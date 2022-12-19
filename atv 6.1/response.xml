@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope/"
+soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+
+<soap:Body xmlns:m="http://www.example.org/consultaClientes">
+  <m:consultaClienteResponse>
+    <m:Nome>Geral</m:Nome>
+    <m:Sobrenome>de Rivia</m:Sobrenome>
+    <m:Endereco>Kaer Morhen, 6661</m:Endereco>
+    <m:Telefone>(81)93422-4002</m:Telefone>
+  </m:consultaClienteResponse>
+</soap:Body>
+
+</soap:Envelope>
