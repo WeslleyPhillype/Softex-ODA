@@ -1,0 +1,24 @@
+{
+  "name": "softex-oda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ODA-39.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeslleyPhillype/Softex-ODA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeslleyPhillype/Softex-ODA/issues"
+  },
+  "homepage": "https://github.com/WeslleyPhillype/Softex-ODA#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
